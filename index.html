@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+</head>
+<body>
+    <p>Rock Paper Scissor</p>
+    <button onclick=
+    "playGame('Rock')">
+        Rock
+    </button>
+    <button onclick="playGame('Paper')">
+        Paper
+    </button>
+    <button onclick="playGame('Scissor')">Scissor</button>
+    <button
+    onclick="
+    score.wins=0;
+    score.loses=0;
+    score.Ties=0;
+    localStorage.removeItem('score')">Reset Score</button>
+    </body>
+</html>
